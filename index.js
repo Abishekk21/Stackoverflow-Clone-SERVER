@@ -25,7 +25,7 @@ app.use(bodyParser.json())
 app.use(bodyParser.urlencoded({ extended: true}))
 
 app.get('/',(req,res)=>{
-    res.send("This is a stack over flow clone")
+    res.send("Welcome to STACKOVERFLOW CLONE Backend")
 })
 
 //Importing
